@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="50dip">
+	<LinearLayout
+	    android:id="@+id/main_linearlayout_footer"
+	    android:layout_width="fill_parent" 
+		android:layout_height="50dip"
+		android:gravity="center_vertical">
+			<RadioButton 
+				style="@style/main_footbar_radio"
+				android:drawableTop="@drawable/dock_home"/>
+			<RadioButton 
+				style="@style/main_footbar_radio"
+				android:drawableTop="@drawable/dock_explore"/>
+			<RadioButton 
+				style="@style/main_footbar_radio"
+				android:drawableTop="@drawable/dock_camera"
+				android:background="#E95958"/>
+			<RadioButton 
+			    style="@style/main_footbar_radio"
+				android:drawableTop="@drawable/dock_news"/>
+			<RadioButton
+				style="@style/main_footbar_radio"
+				android:drawableTop="@drawable/dock_profile"/>
+	</LinearLayout>
+</RelativeLayout>
