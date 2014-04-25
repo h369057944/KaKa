@@ -39,6 +39,7 @@ public class Main extends Activity {
 		for(int i =0;i<18;i++){
 			image_list.add("1");
 		}
+		
 		picAdpater = new GridPictureAdpater(this, image_list);
 		main2_gridview = (GridView) findViewById(R.id.main2_gridview);
 		main2_gridview.setAdapter(picAdpater);
@@ -46,6 +47,7 @@ public class Main extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
+				System.out.println("~~~~~");
 			}
 		});
 	}
