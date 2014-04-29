@@ -83,7 +83,7 @@ public class Main extends Activity {
 			});
 		}
 
-		// 设置第一显示屏
+		// 设置第一显示屏//测试
 		mCurSel = 0;
 		mButtons[mCurSel].setChecked(true);
 
