@@ -30,7 +30,7 @@ public class Main extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		System.out.println("~~~~~~");
+		System.out.println("~~~~11~~");
 		this.initList();
 		this.initPageScroll();
 	}
