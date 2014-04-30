@@ -12,7 +12,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
@@ -43,6 +42,7 @@ public class GridPictureAdpater extends MyBaseAdapter {
 	static class ViewHolder {
 		private ImageView gridview_image;
 		private ImageView gridview_image_bg;
+		
 	}
 	
 	public GridPictureAdpater(Context context, List<? extends Object> list) {
@@ -53,6 +53,7 @@ public class GridPictureAdpater extends MyBaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 //		String timeperiod= (String) getList().get(position);
+		System.out.println("~~~position~~~~~"+position);
 		if (convertView == null) {
 			holder = new ViewHolder();
 			convertView = inflater.inflate(R.layout.item_main2_gridview, null);
