@@ -64,9 +64,12 @@ public class GridPictureAdpater extends MyBaseAdapter {
 		}
 		Bitmap  bitmap = BitmapFactory.decodeResource(context.getResources(),image_path[position]);
 		holder.gridview_image.setImageBitmap(Bitmap.createScaledBitmap(bitmap, FileUtils.dip2px(context, 123), FileUtils.dip2px(context, 120), true));
+//		holder.gridview_image.setImageBitmap(ImageUtils.getRoundedCornerBitmap(Bitmap.createScaledBitmap(bitmap, FileUtils.dip2px(context, 123), FileUtils.dip2px(context, 120), true),140));
 		holder.gridview_image_bg.getBackground().setAlpha(150);
 		return convertView;
 	}
+	
+	
 	
 	public Drawable convertBitmap2Drawable(Bitmap bitmap) {
 		BitmapDrawable bd = new BitmapDrawable(bitmap);
