@@ -53,7 +53,6 @@ public class GridPictureAdpater extends MyBaseAdapter {
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 //		String timeperiod= (String) getList().get(position);
-		System.out.println("~~~position~~~~~"+position);
 		if (convertView == null) {
 			holder = new ViewHolder();
 			convertView = inflater.inflate(R.layout.item_main2_gridview, null);
