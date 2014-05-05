@@ -3,6 +3,7 @@ package com.liangliangshi.kaka.ui;
 import java.util.ArrayList;
 
 import com.liangliangshi.kaka.R;
+import com.liangliangshi.kaka.common.ImageUtils;
 import com.liangliangshi.kaka.ui.adpater.GridPictureAdpater;
 import com.liangliangshi.kaka.ui.wight.ScrollLayout;
 
@@ -16,7 +17,7 @@ import android.widget.RadioButton;
 import android.app.Activity;
 import android.content.Intent;
 
-public class Main extends Activity {
+public class Main extends BaseActivity {
 
 	private int mCurSel;
 	private int mViewCount;
@@ -46,6 +47,8 @@ public class Main extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
+				Intent intent = new Intent(Main.this, ShopInfoActivity.class);
+				startActivitys(intent);
 			}
 		});
 	}
@@ -82,7 +85,7 @@ public class Main extends Activity {
 			});
 		}
 
-		// 设置第一显示屏//测试111111
+		// 设置第一显示屏
 		mCurSel = 0;
 		mButtons[mCurSel].setChecked(true);
 
