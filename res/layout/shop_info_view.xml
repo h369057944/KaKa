@@ -10,6 +10,7 @@
     	    android:layout_height="wrap_content"
     	    android:orientation="vertical">
     	    	<ImageView
+    	    	    android:id="@+id/shop_info_image"
     	    	    android:layout_width="fill_parent"
     	    	    android:layout_height="wrap_content"
     	    	    android:background="@drawable/a7bcad2642b48513fe9bd4bffec"/>

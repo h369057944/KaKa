@@ -5,10 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
-    <string name="open">Open</string>
-    <string name="googlePlay">Google Play</string>
-    <string name="uninstall">Uninstall</string>
-    
     <string name="appName">SwipeListView Demo</string>
     <string name="open">Open</string>
     <string name="googlePlay">Google Play</string>

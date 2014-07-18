@@ -23,153 +23,56 @@ public final class R {
         public static final int slide_right_out=0x7f04000b;
     }
     public static final class attr {
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>reveal</code></td><td>0</td><td></td></tr>
-<tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
-<tr><td><code>choice</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int swipeActionLeft=0x7f010008;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>reveal</code></td><td>0</td><td></td></tr>
-<tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
-<tr><td><code>choice</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int swipeActionRight=0x7f010009;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int swipeAnimationTime=0x7f010001;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int swipeBackView=0x7f010006;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int swipeCloseAllItemsWhenMoveList=0x7f010004;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int swipeDrawableChecked=0x7f01000a;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int swipeDrawableUnchecked=0x7f01000b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int swipeFrontView=0x7f010005;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>both</code></td><td>1</td><td></td></tr>
-<tr><td><code>right</code></td><td>2</td><td></td></tr>
-<tr><td><code>left</code></td><td>3</td><td></td></tr>
-</table>
-         */
-        public static final int swipeMode=0x7f010007;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int swipeOffsetLeft=0x7f010002;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int swipeOffsetRight=0x7f010003;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int swipeOpenOnLongPress=0x7f010000;
     }
     public static final class color {
-        public static final int BFBFBF=0x7f060019;
-        public static final int BOBOBO=0x7f06001a;
-        public static final int DDDDDD=0x7f060000;
-        public static final int a7d4ff=0x7f060018;
-        public static final int b4bfc2=0x7f060017;
-        public static final int background_app=0x7f06001e;
-        public static final int background_list_back=0x7f06001f;
-        public static final int background_list_front=0x7f060020;
-        public static final int background_new_tag=0x7f060024;
+        public static final int BFBFBF=0x7f050019;
+        public static final int BOBOBO=0x7f05001a;
+        public static final int DDDDDD=0x7f050000;
+        public static final int a7d4ff=0x7f050018;
+        public static final int b4bfc2=0x7f050017;
+        public static final int background_app=0x7f05001e;
+        public static final int background_list_back=0x7f05001f;
+        public static final int background_list_front=0x7f050020;
+        public static final int background_new_tag=0x7f050024;
         /**   暗淡灰 
          */
-        public static final int bg_color=0x7f060012;
-        public static final int black=0x7f060007;
-        public static final int blackss=0x7f060008;
-        public static final int blank_gray=0x7f060004;
-        public static final int blanks_gray=0x7f060005;
-        public static final int blue=0x7f06000e;
-        public static final int delay_orange=0x7f06001c;
-        public static final int delay_red=0x7f06001b;
-        public static final int delay_yellow=0x7f06001d;
+        public static final int bg_color=0x7f050012;
+        public static final int black=0x7f050007;
+        public static final int blackss=0x7f050008;
+        public static final int blank_gray=0x7f050004;
+        public static final int blanks_gray=0x7f050005;
+        public static final int blue=0x7f05000e;
+        public static final int delay_orange=0x7f05001c;
+        public static final int delay_red=0x7f05001b;
+        public static final int delay_yellow=0x7f05001d;
         /**   灰色 
          */
-        public static final int dimgray=0x7f060011;
+        public static final int dimgray=0x7f050011;
         /**   午夜蓝 
          */
-        public static final int dodgerblue=0x7f06000c;
-        public static final int edfbff=0x7f060016;
+        public static final int dodgerblue=0x7f05000c;
+        public static final int edfbff=0x7f050016;
         /**   银灰色 
          */
-        public static final int gray=0x7f060010;
-        public static final int green=0x7f060015;
-        public static final int lightBlue=0x7f060006;
-        public static final int light_gray=0x7f060003;
-        public static final int line=0x7f060023;
+        public static final int gray=0x7f050010;
+        public static final int green=0x7f050015;
+        public static final int lightBlue=0x7f050006;
+        public static final int light_gray=0x7f050003;
+        public static final int line=0x7f050023;
         /**   闪兰色/道奇蓝 
          */
-        public static final int midnightBlue=0x7f06000b;
-        public static final int orange=0x7f06000d;
-        public static final int red=0x7f060014;
-        public static final int silver=0x7f06000f;
-        public static final int steelBlue=0x7f06000a;
-        public static final int text_description=0x7f060022;
-        public static final int text_new_tag=0x7f060025;
-        public static final int text_title=0x7f060021;
-        public static final int transparent=0x7f060009;
-        public static final int white=0x7f060001;
-        public static final int white_gray=0x7f060002;
-        public static final int yellow=0x7f060013;
+        public static final int midnightBlue=0x7f05000b;
+        public static final int orange=0x7f05000d;
+        public static final int red=0x7f050014;
+        public static final int silver=0x7f05000f;
+        public static final int steelBlue=0x7f05000a;
+        public static final int text_description=0x7f050022;
+        public static final int text_new_tag=0x7f050025;
+        public static final int text_title=0x7f050021;
+        public static final int transparent=0x7f050009;
+        public static final int white=0x7f050001;
+        public static final int white_gray=0x7f050002;
+        public static final int yellow=0x7f050013;
     }
     public static final class dimen {
         /** 
@@ -177,84 +80,84 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f070049;
-        public static final int font_size_description=0x7f070045;
-        public static final int font_size_new_tag=0x7f070047;
-        public static final int font_size_title=0x7f070044;
+        public static final int activity_horizontal_margin=0x7f060049;
+        public static final int font_size_description=0x7f060045;
+        public static final int font_size_new_tag=0x7f060047;
+        public static final int font_size_title=0x7f060044;
         /**  Products 
          */
-        public static final int height_list=0x7f070042;
-        public static final int line_default=0x7f070041;
-        public static final int margin_default=0x7f070040;
-        public static final int margin_setting=0x7f070046;
-        public static final int padding_default=0x7f07003f;
-        public static final int padding_new_tag=0x7f070048;
-        public static final int radius_default=0x7f07003e;
-        public static final int size_list_image=0x7f070043;
-        public static final int space_1=0x7f07003d;
-        public static final int space_10=0x7f070034;
-        public static final int space_11=0x7f070033;
-        public static final int space_12=0x7f070032;
-        public static final int space_13=0x7f070031;
-        public static final int space_14=0x7f070030;
-        public static final int space_15=0x7f07002f;
-        public static final int space_16=0x7f07002e;
-        public static final int space_17=0x7f07002d;
-        public static final int space_18=0x7f07002c;
-        public static final int space_19=0x7f07002b;
-        public static final int space_2=0x7f07003c;
-        public static final int space_20=0x7f07002a;
-        public static final int space_21=0x7f070029;
-        public static final int space_22=0x7f070028;
-        public static final int space_23=0x7f070027;
-        public static final int space_24=0x7f070026;
-        public static final int space_25=0x7f070025;
-        public static final int space_26=0x7f070024;
-        public static final int space_27=0x7f070023;
-        public static final int space_28=0x7f070022;
-        public static final int space_29=0x7f070021;
-        public static final int space_3=0x7f07003b;
-        public static final int space_30=0x7f070020;
-        public static final int space_4=0x7f07003a;
-        public static final int space_5=0x7f070039;
-        public static final int space_6=0x7f070038;
-        public static final int space_7=0x7f070037;
-        public static final int space_8=0x7f070036;
-        public static final int space_9=0x7f070035;
-        public static final int text_size_1=0x7f07001f;
-        public static final int text_size_10=0x7f070016;
-        public static final int text_size_11=0x7f070015;
-        public static final int text_size_12=0x7f070014;
-        public static final int text_size_13=0x7f070013;
-        public static final int text_size_14=0x7f070012;
-        public static final int text_size_15=0x7f070011;
-        public static final int text_size_16=0x7f070010;
-        public static final int text_size_17=0x7f07000f;
-        public static final int text_size_18=0x7f07000e;
-        public static final int text_size_19=0x7f07000d;
-        public static final int text_size_2=0x7f07001e;
-        public static final int text_size_20=0x7f07000c;
-        public static final int text_size_21=0x7f07000b;
-        public static final int text_size_22=0x7f07000a;
-        public static final int text_size_23=0x7f070009;
-        public static final int text_size_24=0x7f070008;
-        public static final int text_size_25=0x7f070007;
-        public static final int text_size_26=0x7f070006;
-        public static final int text_size_27=0x7f070005;
-        public static final int text_size_28=0x7f070004;
-        public static final int text_size_29=0x7f070003;
-        public static final int text_size_3=0x7f07001d;
-        public static final int text_size_30=0x7f070002;
-        public static final int text_size_31=0x7f070001;
+        public static final int height_list=0x7f060042;
+        public static final int line_default=0x7f060041;
+        public static final int margin_default=0x7f060040;
+        public static final int margin_setting=0x7f060046;
+        public static final int padding_default=0x7f06003f;
+        public static final int padding_new_tag=0x7f060048;
+        public static final int radius_default=0x7f06003e;
+        public static final int size_list_image=0x7f060043;
+        public static final int space_1=0x7f06003d;
+        public static final int space_10=0x7f060034;
+        public static final int space_11=0x7f060033;
+        public static final int space_12=0x7f060032;
+        public static final int space_13=0x7f060031;
+        public static final int space_14=0x7f060030;
+        public static final int space_15=0x7f06002f;
+        public static final int space_16=0x7f06002e;
+        public static final int space_17=0x7f06002d;
+        public static final int space_18=0x7f06002c;
+        public static final int space_19=0x7f06002b;
+        public static final int space_2=0x7f06003c;
+        public static final int space_20=0x7f06002a;
+        public static final int space_21=0x7f060029;
+        public static final int space_22=0x7f060028;
+        public static final int space_23=0x7f060027;
+        public static final int space_24=0x7f060026;
+        public static final int space_25=0x7f060025;
+        public static final int space_26=0x7f060024;
+        public static final int space_27=0x7f060023;
+        public static final int space_28=0x7f060022;
+        public static final int space_29=0x7f060021;
+        public static final int space_3=0x7f06003b;
+        public static final int space_30=0x7f060020;
+        public static final int space_4=0x7f06003a;
+        public static final int space_5=0x7f060039;
+        public static final int space_6=0x7f060038;
+        public static final int space_7=0x7f060037;
+        public static final int space_8=0x7f060036;
+        public static final int space_9=0x7f060035;
+        public static final int text_size_1=0x7f06001f;
+        public static final int text_size_10=0x7f060016;
+        public static final int text_size_11=0x7f060015;
+        public static final int text_size_12=0x7f060014;
+        public static final int text_size_13=0x7f060013;
+        public static final int text_size_14=0x7f060012;
+        public static final int text_size_15=0x7f060011;
+        public static final int text_size_16=0x7f060010;
+        public static final int text_size_17=0x7f06000f;
+        public static final int text_size_18=0x7f06000e;
+        public static final int text_size_19=0x7f06000d;
+        public static final int text_size_2=0x7f06001e;
+        public static final int text_size_20=0x7f06000c;
+        public static final int text_size_21=0x7f06000b;
+        public static final int text_size_22=0x7f06000a;
+        public static final int text_size_23=0x7f060009;
+        public static final int text_size_24=0x7f060008;
+        public static final int text_size_25=0x7f060007;
+        public static final int text_size_26=0x7f060006;
+        public static final int text_size_27=0x7f060005;
+        public static final int text_size_28=0x7f060004;
+        public static final int text_size_29=0x7f060003;
+        public static final int text_size_3=0x7f06001d;
+        public static final int text_size_30=0x7f060002;
+        public static final int text_size_31=0x7f060001;
         /**  Default screen margins, per the Android Design guidelines. 
          */
-        public static final int text_size_32=0x7f070000;
-        public static final int text_size_4=0x7f07001c;
-        public static final int text_size_5=0x7f07001b;
-        public static final int text_size_6=0x7f07001a;
-        public static final int text_size_7=0x7f070019;
-        public static final int text_size_8=0x7f070018;
-        public static final int text_size_9=0x7f070017;
+        public static final int text_size_32=0x7f060000;
+        public static final int text_size_4=0x7f06001c;
+        public static final int text_size_5=0x7f06001b;
+        public static final int text_size_6=0x7f06001a;
+        public static final int text_size_7=0x7f060019;
+        public static final int text_size_8=0x7f060018;
+        public static final int text_size_9=0x7f060017;
     }
     public static final class drawable {
         public static final int a7bcad2642b48513fe9bd4bffec=0x7f020000;
@@ -316,27 +219,18 @@ containing a value of this type.
         public static final int widget_bar_set=0x7f020038;
     }
     public static final class id {
-        public static final int action_settings=0x7f050014;
-        public static final int back=0x7f05000e;
-        public static final int both=0x7f050001;
-        public static final int but_header_back=0x7f050007;
-        public static final int choice=0x7f050006;
-        public static final int dismiss=0x7f050005;
-        public static final int example_lv_list=0x7f05000c;
-        public static final int front=0x7f05000d;
-        public static final int gridview_image=0x7f050009;
-        public static final int gridview_image_bg=0x7f05000a;
-        public static final int head_view_title=0x7f050008;
-        public static final int left=0x7f050003;
-        public static final int main2_gridview=0x7f05000f;
-        public static final int main_head_title=0x7f050012;
-        public static final int main_head_title_RE=0x7f050011;
-        public static final int main_linearlayout_footer=0x7f050010;
-        public static final int main_scrolllayout=0x7f05000b;
-        public static final int none=0x7f050000;
-        public static final int reveal=0x7f050004;
-        public static final int right=0x7f050002;
-        public static final int shop_gridview_people=0x7f050013;
+        public static final int action_settings=0x7f0a000b;
+        public static final int but_header_back=0x7f0a0000;
+        public static final int gridview_image=0x7f0a0002;
+        public static final int gridview_image_bg=0x7f0a0003;
+        public static final int head_view_title=0x7f0a0001;
+        public static final int main2_gridview=0x7f0a0005;
+        public static final int main_head_title=0x7f0a0008;
+        public static final int main_head_title_RE=0x7f0a0007;
+        public static final int main_linearlayout_footer=0x7f0a0006;
+        public static final int main_scrolllayout=0x7f0a0004;
+        public static final int shop_gridview_people=0x7f0a000a;
+        public static final int shop_info_image=0x7f0a0009;
     }
     public static final class layout {
         public static final int header_view=0x7f030000;
@@ -352,43 +246,43 @@ containing a value of this type.
         public static final int shop_info_view=0x7f03000a;
     }
     public static final class menu {
-        public static final int main=0x7f0a0000;
+        public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int about=0x7f080018;
-        public static final int aboutMessage=0x7f080019;
-        public static final int action_settings=0x7f080001;
-        public static final int animationTime=0x7f080015;
-        public static final int appName=0x7f080006;
-        public static final int app_name=0x7f080000;
-        public static final int both=0x7f08000c;
-        public static final int cantOpen=0x7f080007;
-        public static final int choice=0x7f080010;
-        public static final int discard=0x7f080021;
-        public static final int dismiss=0x7f08000f;
-        public static final int dontShow=0x7f08001d;
-        public static final int dp=0x7f080014;
-        public static final int goToGitHub=0x7f08001c;
-        public static final int googlePlay=0x7f080004;
-        public static final int hello_world=0x7f080002;
-        public static final int left=0x7f08000a;
-        public static final int leftAction=0x7f08000d;
-        public static final int leftOffset=0x7f080013;
-        public static final int loading=0x7f08001f;
-        public static final int milliseconds=0x7f080016;
-        public static final int mode=0x7f080009;
-        public static final int newTag=0x7f080020;
-        public static final int ok=0x7f08001a;
-        public static final int open=0x7f080003;
-        public static final int openOnLongPress=0x7f080017;
-        public static final int others=0x7f08001e;
-        public static final int reveal=0x7f08000e;
-        public static final int right=0x7f08000b;
-        public static final int rightAction=0x7f080011;
-        public static final int rightOffset=0x7f080012;
-        public static final int settings=0x7f080008;
-        public static final int uninstall=0x7f080005;
-        public static final int visit47=0x7f08001b;
+        public static final int about=0x7f070018;
+        public static final int aboutMessage=0x7f070019;
+        public static final int action_settings=0x7f070001;
+        public static final int animationTime=0x7f070015;
+        public static final int appName=0x7f070003;
+        public static final int app_name=0x7f070000;
+        public static final int both=0x7f07000c;
+        public static final int cantOpen=0x7f070007;
+        public static final int choice=0x7f070010;
+        public static final int discard=0x7f070021;
+        public static final int dismiss=0x7f07000f;
+        public static final int dontShow=0x7f07001d;
+        public static final int dp=0x7f070014;
+        public static final int goToGitHub=0x7f07001c;
+        public static final int googlePlay=0x7f070005;
+        public static final int hello_world=0x7f070002;
+        public static final int left=0x7f07000a;
+        public static final int leftAction=0x7f07000d;
+        public static final int leftOffset=0x7f070013;
+        public static final int loading=0x7f07001f;
+        public static final int milliseconds=0x7f070016;
+        public static final int mode=0x7f070009;
+        public static final int newTag=0x7f070020;
+        public static final int ok=0x7f07001a;
+        public static final int open=0x7f070004;
+        public static final int openOnLongPress=0x7f070017;
+        public static final int others=0x7f07001e;
+        public static final int reveal=0x7f07000e;
+        public static final int right=0x7f07000b;
+        public static final int rightAction=0x7f070011;
+        public static final int rightOffset=0x7f070012;
+        public static final int settings=0x7f070008;
+        public static final int uninstall=0x7f070006;
+        public static final int visit47=0x7f07001b;
     }
     public static final class style {
         /** 
@@ -412,230 +306,22 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f090000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f090001;
-        public static final int centerVertical_style=0x7f090008;
-        public static final int dialog=0x7f090002;
-        public static final int footbar=0x7f090005;
-        public static final int layout_style=0x7f090006;
-        public static final int loading_small=0x7f090003;
-        public static final int main_footbar_radio=0x7f090004;
-        public static final int text_style=0x7f090007;
-        public static final int text_style12=0x7f09000d;
-        public static final int text_style14=0x7f09000c;
-        public static final int text_style16=0x7f09000b;
-        public static final int text_style18=0x7f09000a;
-        public static final int text_style20=0x7f090009;
+        public static final int AppTheme=0x7f080001;
+        public static final int centerVertical_style=0x7f080008;
+        public static final int dialog=0x7f080002;
+        public static final int footbar=0x7f080004;
+        public static final int layout_style=0x7f080006;
+        public static final int loading_small=0x7f080005;
+        public static final int main_footbar_radio=0x7f080003;
+        public static final int text_style=0x7f080007;
+        public static final int text_style12=0x7f08000d;
+        public static final int text_style14=0x7f08000c;
+        public static final int text_style16=0x7f08000b;
+        public static final int text_style18=0x7f08000a;
+        public static final int text_style20=0x7f080009;
     }
-    public static final class styleable {
-        /** Attributes that can be used with a SwipeListView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SwipeListView_swipeActionLeft com.liangliangshi.kaka:swipeActionLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeActionRight com.liangliangshi.kaka:swipeActionRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeAnimationTime com.liangliangshi.kaka:swipeAnimationTime}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeBackView com.liangliangshi.kaka:swipeBackView}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeCloseAllItemsWhenMoveList com.liangliangshi.kaka:swipeCloseAllItemsWhenMoveList}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeDrawableChecked com.liangliangshi.kaka:swipeDrawableChecked}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeDrawableUnchecked com.liangliangshi.kaka:swipeDrawableUnchecked}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeFrontView com.liangliangshi.kaka:swipeFrontView}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeMode com.liangliangshi.kaka:swipeMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOffsetLeft com.liangliangshi.kaka:swipeOffsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOffsetRight com.liangliangshi.kaka:swipeOffsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwipeListView_swipeOpenOnLongPress com.liangliangshi.kaka:swipeOpenOnLongPress}</code></td><td></td></tr>
-           </table>
-           @see #SwipeListView_swipeActionLeft
-           @see #SwipeListView_swipeActionRight
-           @see #SwipeListView_swipeAnimationTime
-           @see #SwipeListView_swipeBackView
-           @see #SwipeListView_swipeCloseAllItemsWhenMoveList
-           @see #SwipeListView_swipeDrawableChecked
-           @see #SwipeListView_swipeDrawableUnchecked
-           @see #SwipeListView_swipeFrontView
-           @see #SwipeListView_swipeMode
-           @see #SwipeListView_swipeOffsetLeft
-           @see #SwipeListView_swipeOffsetRight
-           @see #SwipeListView_swipeOpenOnLongPress
-         */
-        public static final int[] SwipeListView = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeActionLeft}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>reveal</code></td><td>0</td><td></td></tr>
-<tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
-<tr><td><code>choice</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.liangliangshi.kaka:swipeActionLeft
-        */
-        public static final int SwipeListView_swipeActionLeft = 8;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeActionRight}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>reveal</code></td><td>0</td><td></td></tr>
-<tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
-<tr><td><code>choice</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.liangliangshi.kaka:swipeActionRight
-        */
-        public static final int SwipeListView_swipeActionRight = 9;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeAnimationTime}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.liangliangshi.kaka:swipeAnimationTime
-        */
-        public static final int SwipeListView_swipeAnimationTime = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeBackView}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.liangliangshi.kaka:swipeBackView
-        */
-        public static final int SwipeListView_swipeBackView = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeCloseAllItemsWhenMoveList}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.liangliangshi.kaka:swipeCloseAllItemsWhenMoveList
-        */
-        public static final int SwipeListView_swipeCloseAllItemsWhenMoveList = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeDrawableChecked}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.liangliangshi.kaka:swipeDrawableChecked
-        */
-        public static final int SwipeListView_swipeDrawableChecked = 10;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeDrawableUnchecked}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.liangliangshi.kaka:swipeDrawableUnchecked
-        */
-        public static final int SwipeListView_swipeDrawableUnchecked = 11;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeFrontView}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.liangliangshi.kaka:swipeFrontView
-        */
-        public static final int SwipeListView_swipeFrontView = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeMode}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>both</code></td><td>1</td><td></td></tr>
-<tr><td><code>right</code></td><td>2</td><td></td></tr>
-<tr><td><code>left</code></td><td>3</td><td></td></tr>
-</table>
-          @attr name com.liangliangshi.kaka:swipeMode
-        */
-        public static final int SwipeListView_swipeMode = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeOffsetLeft}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.liangliangshi.kaka:swipeOffsetLeft
-        */
-        public static final int SwipeListView_swipeOffsetLeft = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeOffsetRight}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.liangliangshi.kaka:swipeOffsetRight
-        */
-        public static final int SwipeListView_swipeOffsetRight = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.liangliangshi.kaka.R.attr#swipeOpenOnLongPress}
-          attribute's value can be found in the {@link #SwipeListView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.liangliangshi.kaka:swipeOpenOnLongPress
-        */
-        public static final int SwipeListView_swipeOpenOnLongPress = 0;
-    };
 }
