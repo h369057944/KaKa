@@ -35,6 +35,11 @@ public class Main extends BaseActivity {
 		this.initPageScroll();
 	}
 
+	/**
+	 * 
+	 * ≤‚ ‘11
+	 * 
+	 */
 	private void initList() {
 		for(int i =0;i<18;i++){
 			image_list.add("1");
