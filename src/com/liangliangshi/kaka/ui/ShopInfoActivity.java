@@ -25,6 +25,7 @@ public class ShopInfoActivity extends BaseActivity {
 		
 		initHeader();
 		initView();
+		
 	}
 
 	private void initHeader() {
