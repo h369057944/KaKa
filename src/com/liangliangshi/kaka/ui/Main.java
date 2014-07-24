@@ -71,13 +71,13 @@ public class Main extends BaseActivity {
 					// 点击当前项刷新
 					if (mCurSel == pos) {
 						switch (pos) {
-						case 0:// 接诊
+						case 0:
 							break;
-						case 1:// 病人
+						case 1:
 							break;
-						case 2:// 个人信息
+						case 2:
 							break;
-						case 3:// 设置
+						case 3:
 							break;
 						}
 					}
@@ -96,16 +96,16 @@ public class Main extends BaseActivity {
 						// 切换列表视图-如果列表数据为空：加载数据
 						if (mCurSel != viewIndex) {
 							switch (viewIndex) {
-							case 0:// 接诊
+							case 0:
 
 								break;
-							case 1:// 病人
+							case 1:
 
 								break;
-							case 2:// 个人信息
+							case 2:
 
 								break;
-							case 3:// 设置
+							case 3:
 
 								break;
 							}
