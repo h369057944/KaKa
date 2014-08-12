@@ -1,31 +1,49 @@
 package com.liangliangshi.kaka.ui;
 
-import com.liangliangshi.kaka.R;
-import com.liangliangshi.kaka.common.Rotate3dAnimation;
+import java.util.ArrayList;
 
+import com.liangliangshi.kaka.R;
+import com.liangliangshi.kaka.ui.adpater.GridPictureAdpater;
+import com.liangliangshi.kaka.ui.adpater.ShopPeopleAdpater;
+import com.liangliangshi.kaka.ui.animation.Rotate3dAnimation;
+import com.liangliangshi.kaka.util.People;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class ShopInfoActivity extends BaseActivity {
 	
 	private ImageView shop_info_image;
 	private GridView shop_gridview_people;
+	
+	private ShopPeopleAdpater peopleAdp;
+	private ArrayList<String> people_list = new ArrayList<String>();
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.shop_info_view);
 		
+		initList();
 		initHeader();
 		initView();
 		
+	}
+	
+	private void initList() {
+		for(int i =0;i<18;i++){
+			people_list.add("1");
+		}
 	}
 
 	private void initHeader() {
@@ -38,6 +56,8 @@ public class ShopInfoActivity extends BaseActivity {
 	private void initView() {
 		shop_info_image = (ImageView) findViewById(R.id.shop_info_image);
 		shop_gridview_people = (GridView) findViewById(R.id.shop_gridview_people);
+		peopleAdp = new ShopPeopleAdpater(this, people_list);
+		shop_gridview_people.setAdapter(peopleAdp);
 		shop_info_image.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -88,7 +108,6 @@ public class ShopInfoActivity extends BaseActivity {
             rotation.setDuration(500);  
             rotation.setFillAfter(true);  
             rotation.setInterpolator(new DecelerateInterpolator());  
-            // ¿ªÊ¼¶¯»­  
             shop_info_image.startAnimation(rotation);  
         }  
     }  

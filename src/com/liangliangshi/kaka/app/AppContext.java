@@ -20,6 +20,9 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONException;
 
 import com.liangliangshi.kaka.common.StringUtils;
+import com.liangliangshi.kaka.http.CustomHttpClient;
+import com.liangliangshi.kaka.http.URLs;
+import com.liangliangshi.kaka.util.Reject;
 
 import android.app.Application;
 import android.content.Context;
@@ -34,71 +37,28 @@ public class AppContext extends Application {
 
 	public static final String PAGE_SIZE = "10";//默认分页大小
 	
-	private String SessionId;
-	private String tokenId;
 	
-	public String getRole() {
-		if(this.getProperty("user.role")==null){
-			return "";
+	/**
+	 * 
+	 * 设置维护负责人
+	 * 
+	 * @param equipId
+	 * @param deleteId
+	 * @return
+	 */
+	public Reject getTest(){
+		Reject reject = null;
+		if(isNetworkConnected()) {
+			List<NameValuePair> params = new ArrayList<NameValuePair>();
+			params.add(new BasicNameValuePair("name", "~~~~~~~~~~namenamenamename~~~~~~~~~~~~"));
+			reject = Reject.parse(CustomHttpClient.doPost(this,URLs.TEST,params));
 		} else {
-			return this.getProperty("user.role");
+			if(reject == null)
+				reject = new Reject();
 		}
+		return reject;
 	}
 	
-	public void setRole(String role) {
-		setProperty("user.role", role);
-	}
-	
-	
-	public String getAccountid() {
-		return this.getProperty("user.accountid");
-	}
-	
-	public void setAccountid(String accountid) {
-		setProperty("user.accountid", accountid);
-	}
-	
-	
-	public String getSessionId() {
-		return this.getProperty("user.SessionId");
-	}
-	
-	public void setSessionId(String sessionId) {
-		setProperty("user.SessionId", sessionId);
-	}
-	
-	public String getTokenId() {
-		return this.getProperty("user.tokenId");
-	}
-	
-	public void setTokenId(String tokenid) {
-		tokenId = tokenid;
-		setProperty("user.tokenId", tokenid);
-	}
-	
-	public String getisFrist() {
-		return this.getProperty("user.isfrist");
-	}
-	
-	public void setisFrist(String isfrist) {
-		setProperty("user.isfrist", isfrist);
-	}
-	
-	public String getIsCustomeServiceMan() {
-		return this.getProperty("user.IsCustomeServiceMan");
-	}
-	
-	public void setIsCustomeServiceMan(String is) {
-		setProperty("user.IsCustomeServiceMan", is);
-	}
-	
-	public String getisUserMamentCompetence() {
-		return this.getProperty("user.isUserMamentCompetence");
-	}
-	
-	public void setisUserMamentCompetence(String is) {
-		setProperty("user.isUserMamentCompetence", is);
-	}
 	
 	/**
 	 * 检测网络是否可用

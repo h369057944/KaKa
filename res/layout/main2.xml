@@ -6,13 +6,9 @@
     android:background="@color/blank_gray">
     	<GridView
     	    android:id="@+id/main2_gridview"
-		    android:layout_width="fill_parent"
-		    android:layout_height="fill_parent"
-			android:listSelector="@color/transparent"
-			android:cacheColorHint="@color/transparent"
+			style="@style/gridview"
 			android:verticalSpacing="3dip"
 			android:horizontalSpacing="3dip"
-			android:scrollbars="none"
 			android:numColumns="3">
 	</GridView>
 </LinearLayout>

@@ -28,12 +28,13 @@ public final class R {
         public static final int BFBFBF=0x7f050019;
         public static final int BOBOBO=0x7f05001a;
         public static final int DDDDDD=0x7f050000;
+        public static final int E95958=0x7f05001b;
         public static final int a7d4ff=0x7f050018;
         public static final int b4bfc2=0x7f050017;
-        public static final int background_app=0x7f05001e;
-        public static final int background_list_back=0x7f05001f;
-        public static final int background_list_front=0x7f050020;
-        public static final int background_new_tag=0x7f050024;
+        public static final int background_app=0x7f05001f;
+        public static final int background_list_back=0x7f050020;
+        public static final int background_list_front=0x7f050021;
+        public static final int background_new_tag=0x7f050025;
         /**   暗淡灰 
          */
         public static final int bg_color=0x7f050012;
@@ -42,9 +43,9 @@ public final class R {
         public static final int blank_gray=0x7f050004;
         public static final int blanks_gray=0x7f050005;
         public static final int blue=0x7f05000e;
-        public static final int delay_orange=0x7f05001c;
-        public static final int delay_red=0x7f05001b;
-        public static final int delay_yellow=0x7f05001d;
+        public static final int delay_orange=0x7f05001d;
+        public static final int delay_red=0x7f05001c;
+        public static final int delay_yellow=0x7f05001e;
         /**   灰色 
          */
         public static final int dimgray=0x7f050011;
@@ -58,7 +59,7 @@ public final class R {
         public static final int green=0x7f050015;
         public static final int lightBlue=0x7f050006;
         public static final int light_gray=0x7f050003;
-        public static final int line=0x7f050023;
+        public static final int line=0x7f050024;
         /**   闪兰色/道奇蓝 
          */
         public static final int midnightBlue=0x7f05000b;
@@ -66,9 +67,9 @@ public final class R {
         public static final int red=0x7f050014;
         public static final int silver=0x7f05000f;
         public static final int steelBlue=0x7f05000a;
-        public static final int text_description=0x7f050022;
-        public static final int text_new_tag=0x7f050025;
-        public static final int text_title=0x7f050021;
+        public static final int text_description=0x7f050023;
+        public static final int text_new_tag=0x7f050026;
+        public static final int text_title=0x7f050022;
         public static final int transparent=0x7f050009;
         public static final int white=0x7f050001;
         public static final int white_gray=0x7f050002;
@@ -219,31 +220,34 @@ public final class R {
         public static final int widget_bar_set=0x7f020038;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000b;
+        public static final int action_settings=0x7f0a000c;
         public static final int but_header_back=0x7f0a0000;
         public static final int gridview_image=0x7f0a0002;
         public static final int gridview_image_bg=0x7f0a0003;
+        public static final int gridview_people_image=0x7f0a0004;
         public static final int head_view_title=0x7f0a0001;
-        public static final int main2_gridview=0x7f0a0005;
-        public static final int main_head_title=0x7f0a0008;
-        public static final int main_head_title_RE=0x7f0a0007;
-        public static final int main_linearlayout_footer=0x7f0a0006;
-        public static final int main_scrolllayout=0x7f0a0004;
-        public static final int shop_gridview_people=0x7f0a000a;
-        public static final int shop_info_image=0x7f0a0009;
+        public static final int main2_gridview=0x7f0a0006;
+        public static final int main_head_title=0x7f0a0009;
+        public static final int main_head_title_RE=0x7f0a0008;
+        public static final int main_linearlayout_footer=0x7f0a0007;
+        public static final int main_scrolllayout=0x7f0a0005;
+        public static final int shop_gridview_people=0x7f0a000b;
+        public static final int shop_info_image=0x7f0a000a;
     }
     public static final class layout {
         public static final int header_view=0x7f030000;
         public static final int item_main2_gridview=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int main1=0x7f030003;
-        public static final int main2=0x7f030004;
-        public static final int main3=0x7f030005;
-        public static final int main4=0x7f030006;
-        public static final int main5=0x7f030007;
-        public static final int main_footer=0x7f030008;
-        public static final int main_header=0x7f030009;
-        public static final int shop_info_view=0x7f03000a;
+        public static final int item_shoppeople_gridview=0x7f030002;
+        public static final int loading_view=0x7f030003;
+        public static final int main=0x7f030004;
+        public static final int main1=0x7f030005;
+        public static final int main2=0x7f030006;
+        public static final int main3=0x7f030007;
+        public static final int main4=0x7f030008;
+        public static final int main5=0x7f030009;
+        public static final int main_footer=0x7f03000a;
+        public static final int main_header=0x7f03000b;
+        public static final int shop_info_view=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -288,11 +292,13 @@ public final class R {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -311,17 +317,18 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f080001;
-        public static final int centerVertical_style=0x7f080008;
+        public static final int centerVertical_style=0x7f080009;
         public static final int dialog=0x7f080002;
-        public static final int footbar=0x7f080004;
-        public static final int layout_style=0x7f080006;
-        public static final int loading_small=0x7f080005;
-        public static final int main_footbar_radio=0x7f080003;
-        public static final int text_style=0x7f080007;
-        public static final int text_style12=0x7f08000d;
-        public static final int text_style14=0x7f08000c;
-        public static final int text_style16=0x7f08000b;
-        public static final int text_style18=0x7f08000a;
-        public static final int text_style20=0x7f080009;
+        public static final int footbar=0x7f080005;
+        public static final int gridview=0x7f080003;
+        public static final int layout_style=0x7f080007;
+        public static final int loading_small=0x7f080006;
+        public static final int main_footbar_radio=0x7f080004;
+        public static final int text_style=0x7f080008;
+        public static final int text_style12=0x7f08000e;
+        public static final int text_style14=0x7f08000d;
+        public static final int text_style16=0x7f08000c;
+        public static final int text_style18=0x7f08000b;
+        public static final int text_style20=0x7f08000a;
     }
 }

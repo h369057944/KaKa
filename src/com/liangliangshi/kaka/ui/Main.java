@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 import com.liangliangshi.kaka.R;
 import com.liangliangshi.kaka.common.ImageUtils;
+import com.liangliangshi.kaka.http.AsyncCfg;
+import com.liangliangshi.kaka.http.AsyncLoad;
+import com.liangliangshi.kaka.http.AsyncLoad.TaskListener;
 import com.liangliangshi.kaka.ui.adpater.GridPictureAdpater;
 import com.liangliangshi.kaka.ui.wight.ScrollLayout;
 
@@ -11,16 +14,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.app.Activity;
 import android.content.Intent;
 
-public class Main extends BaseActivity {
+public class Main extends BaseActivity implements TaskListener{
 
 	private int mCurSel;
 	private int mViewCount;
+	private String errorMess;
+	
 	private RadioButton[] mButtons;
 	private GridView main2_gridview;
 	private ScrollLayout mScrollLayout;
@@ -33,8 +39,9 @@ public class Main extends BaseActivity {
 		setContentView(R.layout.main);
 		this.initList();
 		this.initPageScroll();
+		
+		new AsyncLoad(this, this, AsyncCfg.LOGIN, 0, true).execute(1);
 	}
-
 	
 	private void initList() {
 		for(int i =0;i<18;i++){
@@ -124,6 +131,23 @@ public class Main extends BaseActivity {
 		mCurSel = index;
 	}
 	
+	public void getData(int action, int whatRefresh) {
+		errorMess = null;
+		switch (action) {
+		case AsyncCfg.LOGIN:
+			appContext.getTest();
+			break;
+		}
+	}
+
+	public void Update(int action, int whatRefresh) {
+		if (errorMess == null) {
+			switch (action) {
+			case AsyncCfg.LOGIN:
+				break;
+			}
+		}
+	}
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
