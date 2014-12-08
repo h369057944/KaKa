@@ -37,24 +37,17 @@ public class AppContext extends Application {
 
 	public static final String PAGE_SIZE = "10";//默认分页大小
 	
-	
-	/**
-	 * 
-	 * 设置维护负责人
-	 * 
-	 * @param equipId
-	 * @param deleteId
-	 * @return
-	 */
+
 	public Reject getTest(){
 		Reject reject = null;
-		if(isNetworkConnected()) {
-			List<NameValuePair> params = new ArrayList<NameValuePair>();
-			params.add(new BasicNameValuePair("name", "~~~~~~~~~~namenamenamename~~~~~~~~~~~~"));
-			reject = Reject.parse(CustomHttpClient.doPost(this,URLs.TEST,params));
-		} else {
-			if(reject == null)
-				reject = new Reject();
+		String params = CustomHttpClient.makeURL(URLs.TEST,new HashMap<String, Object>(){{
+			put("page","1");
+			put("page_size","2");
+		}});
+		try {
+			reject = Reject.parse(CustomHttpClient.doGet(this, params));
+		} catch (Exception e) {
+			reject = new Reject();
 		}
 		return reject;
 	}

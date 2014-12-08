@@ -90,10 +90,7 @@ public class CustomHttpClient {
 		} finally {
 			postRequest.abort();
 		}
-		result = result.replace("\"null\"", "\"\"");
-		result = result.replace("null", "\"\"");
-		System.out.println("~~~~~result_psot1~~~~~~"+result);
-		System.out.println("~~~~~result_psot2~~~~~~"+"ssssssssssssssss");
+		System.out.println("~~~~~result_psot~~~~~~"+result);
 		return result;
 
 	}
@@ -138,15 +135,13 @@ public class CustomHttpClient {
 		} finally {
 			getRequest.abort();
 		}
-		result = result.replace("\"null\"", "\"\"");
-		result = result.replace("null", "\"\"");
 		System.out.println("~~~~~result_get~~~~~~"+result);
 		return result;
 	}
 	
 	
 	
-	public static String _MakeURL(String p_url, Map<String, Object> params) {
+	public static String makeURL(String p_url, Map<String, Object> params) {
 		StringBuilder url = new StringBuilder(p_url);
 		if(url.indexOf("?")<0)
 			url.append('?');
